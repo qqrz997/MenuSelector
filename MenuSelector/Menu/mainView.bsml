@@ -1,0 +1,37 @@
+<bg xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='https://monkeymanboy.github.io/BSML-Docs/BSMLSchema.xsd'>
+    <vertical spacing="2"
+              child-expand-height="false">
+        
+        <vertical bg="round-rect-panel" bg-alpha="0.6"
+                  pad="1" pad-left="3" pad-right="3"
+                  vertical-fit="PreferredSize"
+                  child-expand-height="false"
+                  child-align="MiddleCenter">
+            
+            <toggle-setting value="Enabled"
+                            text="Enabled"
+                            apply-on-change="true"/>
+            
+        </vertical>
+        
+        <vertical bg="round-rect-panel" bg-alpha="0.6"
+                  pad="1" pad-left="3" pad-right="3"
+                  vertical-fit="PreferredSize"
+                  child-expand-height="false"
+                  child-align="MiddleCenter">
+
+            <list-setting value="DefaultEnvironment"
+                          options="EnvironmentOptions"
+                          formatter="EnvironmentOptionsFormatter"
+                          text="Default"
+                          apply-on-change="true"/>
+            <list-setting value="LobbyEnvironment"
+                          options="EnvironmentOptions"
+                          formatter="EnvironmentOptionsFormatter"
+                          text="Lobby"
+                          apply-on-change="true"/>
+
+        </vertical>
+    </vertical>
+</bg>
