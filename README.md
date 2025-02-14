@@ -7,7 +7,7 @@
 
 Place the contents of the unzipped folder from the latest [release](https://github.com/qqrz997/MenuSelector/releases/latest) into your Beat Saber installation folder. If you need more information regarding manual installation of mods [this wiki page](https://bsmg.wiki/pc-modding.html#manual-installation) will help. For further help with installing mods, join the [Beat Saber Modding Group](https://discord.gg/beatsabermods) discord server.
 
-Older versions of MenuSelector are n~~~~ot supported. If you find issues using an older version then I won't be able to help.
+Older versions of MenuSelector are not supported. If you find issues using an older version then I won't be able to help.
 
 ## Usage
 Locate the "Menu Selector" button in the left of the main menu to access the Menu Selector screen.
